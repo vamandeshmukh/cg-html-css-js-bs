@@ -65,29 +65,46 @@ comment
 // console.log(typeof (num4));
 
 
-// dynamic value assignment in JS 
+// // dynamic value assignment in JS 
 
-let num;
+// let num;
+// console.log(num);
+// console.log(typeof (num));
+
+// num = 10;
+// console.log(num);
+// console.log(typeof (num));
+
+// num = 20;
+// console.log(num);
+// console.log(typeof (num));
+
+// num = "abc";
+// console.log(num);
+// console.log(typeof (num));
+
+// num = false;
+// console.log(num);
+// console.log(typeof (num));
+
+// operators in JS 
+
+// let salary = 50000;
+// let bonus = 10000;
+// let income = salary + bonus;
+
+// console.log(salary);
+// console.log(bonus);
+// console.log(income);
+
+
+let num = 10;
+let num2 = "10";
+
 console.log(num);
-console.log(typeof (num));
-
-num = 10;
-console.log(num);
-console.log(typeof (num));
-
-num = 20;
-console.log(num);
-console.log(typeof (num));
-
-num = "abc";
-console.log(num);
-console.log(typeof (num));
-
-num = false;
-console.log(num);
-console.log(typeof (num));
-
-
+console.log(num2);
+console.log(num == num2);
+console.log(num === num2);
 
 
 
