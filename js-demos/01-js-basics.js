@@ -98,19 +98,62 @@ comment
 // console.log(income);
 
 
-let num = 10;
-let num2 = "10";
+// let num = 10;
+// let num2 = "10";
 
-console.log(num);
-console.log(num2);
-console.log(num == num2);
-console.log(num === num2);
-
-
-
-
+// console.log(num);
+// console.log(num2);
+// console.log(num == num2);
+// console.log(num === num2);
+// console.log(num != num2);
+// console.log(num !== num2);
 
 
+
+// let num = 20;
+// let num2 = 20;
+// let num3;
+
+// if (num > num2) {
+//     num3 = num;
+// }
+// else if (num2 > num) {
+//     num3 = num2;
+// }
+// else {
+//     num3 = 0;
+// }
+
+// console.log(num3);
+
+// let num = 20;
+// let num2 = 20;
+// let num3;
+
+// if (num > num2)
+//     num3 = num;
+// else if (num2 > num)
+//     num3 = num2;
+// else
+//     num3 = 0;
+
+// console.log(num3);
+
+// truthy falsy in JS
+// In JS, any type of variable can also be a boolean variable
+// falsy values - false, 0, '', undefuled, null (evaluates to false)
+// truthy values - any other values (evaluates to true)
+
+let num4 = 10; 
+// false, 0, '', null, undefined => falsy 
+// any other values => truthy 
+
+
+
+if (num4)
+    console.log("truthy");
+else
+    console.log("falsy");
 
 
 
