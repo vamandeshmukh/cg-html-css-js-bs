@@ -50,19 +50,42 @@ comment
 // num2 = 25; // ?
 // console.log(num2); // ?
 
-let num = 10;
-let num2 = "abc";
-let num3 = false;
-let num4;
+// let num = 10;
+// let num2 = "abc";
+// let num3 = false;
+// let num4;
 
+// console.log(num);
+// console.log(typeof (num));
+// console.log(num2);
+// console.log(typeof (num2));
+// console.log(num3);
+// console.log(typeof (num3));
+// console.log(num4);
+// console.log(typeof (num4));
+
+
+// dynamic value assignment in JS 
+
+let num;
 console.log(num);
 console.log(typeof (num));
-console.log(num2);
-console.log(typeof (num2));
-console.log(num3);
-console.log(typeof (num3));
-console.log(num4);
-console.log(typeof (num4));
+
+num = 10;
+console.log(num);
+console.log(typeof (num));
+
+num = 20;
+console.log(num);
+console.log(typeof (num));
+
+num = "abc";
+console.log(num);
+console.log(typeof (num));
+
+num = false;
+console.log(num);
+console.log(typeof (num));
 
 
 
