@@ -17,9 +17,11 @@ comment
 // number, string, boolean 
 
 // Java -  int num4 = 10;
+// Java -  double num5 = 10.5;
 
 num = 10; // do not use this 
-var num2 = 20; // do not use this 
+var num2 = 20; // do not use this
+
 let num3 = 30; // use this for variables whose value may change  
 const num4 = 40; // use this for final variables 
 
@@ -27,6 +29,15 @@ console.log(num);
 console.log(num2);
 console.log(num3);
 console.log(num4);
+
+let someVariableName = 10;
+let someVariableName2 = "Vaman";
+let someVariableName3 = false;
+
+console.log(someVariableName);
+console.log(someVariableName2);
+console.log(someVariableName3);
+
 
 
 
