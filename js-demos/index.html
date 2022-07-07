@@ -1,11 +1,36 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
+    <script>
+        fun2 = () => {
+            let message = "Internal JS";
+            console.log(message);
+        }
+    </script>
+
 </head>
+
+<!-- HTML CSS JS  -->
+
+
 <body>
     <h1>JavaScript Demo</h1>
-    
-    
+    <div>
+        <p>Inline JavaScript</p>
+        <script>
+            fun = () => {
+                let message = "Inline JS";
+                console.log(message);
+            }
+            fun();
+        </script>
+    </div>
+    <div>
+        <p>Internal JavaScript</p>
+        <script>fun2();</script>
+    </div>
 </body>
+
 </html>
