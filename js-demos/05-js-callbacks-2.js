@@ -85,7 +85,7 @@
 // AC DC  
 
 const fun3 = (abc) => {
-    console.log(abc.prop);
+    console.log(abc);
 }
 
 const fun4 = (def) => {
