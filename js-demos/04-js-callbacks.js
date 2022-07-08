@@ -32,16 +32,16 @@
 // problems of asynchronous JS 
 // ----------------------------
 
-console.log('begin...'); // 1
+// console.log('begin...'); // 1
 
-const getFun = () => {
-    setTimeout(() => {
-        return { messsage: 'Have fun!' }; // 2
-    }, 2000);
-}
+// const getFun = () => {
+//     setTimeout(() => {
+//         return { messsage: 'Have fun!' }; // 2
+//     }, 2000);
+// }
 
-const fun = getFun(); // 3
-console.log(fun);  // 4
+// const fun = getFun(); // 3
+// console.log(fun);  // 4
 
 // =============================================================
 // // 1. solution with callback 
@@ -80,6 +80,12 @@ console.log(fun);  // 4
 
 // getFun(callbackFun); // 3
 
+
+const num = "10";
+const num2 = 5;
+
+console.log(num + num2);
+console.log(num - num2);
 
 
 
