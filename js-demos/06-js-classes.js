@@ -11,9 +11,15 @@ class Employee {
     firstName;
     salary;
 
-    // constructor 
-    constructor() {
+    // constructor (only one!)
+    // constructor() {
 
+    // }
+
+    constructor(employeeId, firstName, salary) {
+        this.employeeId = employeeId;
+        this.salary = salary;
+        this.firstName = firstName;
     }
 
     // methods 
@@ -41,7 +47,10 @@ obj.printEmpData();
 
 console.log(obj);
 
+const obj2 = new Employee(102, 'Monu', 60000);
+obj2.printEmpData();
 
+console.log(obj2);
 
 
 
